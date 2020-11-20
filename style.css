@@ -1,5 +1,5 @@
 /* Trees Image - Pexels: https://www.pexels.com/photo/photo-of-trees-in-forest-3801030/ */
-@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 html {
   box-sizing: border-box;
@@ -14,12 +14,12 @@ html {
 
 body {
   margin: 0;
-  background: url("./trees.jpg");
+  background: url("https://images.unsplash.com/photo-1599009431846-72f18ca2b712?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
   background-position: 50% 60%;
   background-attachment: fixed;
   color: white;
-  font-family: Quicksand, sans-serif;
+  font-family: 'Nunito', sans-serif;
   overflow-y: hidden;
 }
 
@@ -50,7 +50,7 @@ ul {
 
 /* Columns */
 .drag-column {
-
+  flex: 1;
   margin: 0 10px;
   position: relative;
   background-color: rgba(0, 0, 0, 0.4);
